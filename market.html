@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Market - Discrete Solid Quetzal</title>
+    <meta property="og:title" content="Market - Discrete Solid Quetzal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+            button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+                border-style: none;
+                padding: 0;
+            }
+
+            button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+                outline: 1px dotted ButtonText;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 0px 0px 4px 0px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: #393939;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+          data-tag="font" />
+    <link href="css/market.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body onload="ReloadonPage()">
+    <header>
+        <div style="width:1%;flex-shrink:0">
+
+        </div>
+        <div class="home-component3">
+            <div>
+
+                <img src="pics/logo.png"
+                     alt="Vector1110"
+                     class="home-vector1" />
+            </div>
+            <div style="width:40%;">
+                <span class="home-text"><span><a href="index.html">Home</a></span></span>
+                <span class="home-text02"><span class="activeclass"><a href="Market.html">Market</a></span></span>
+                <span class="home-text04"><span><a href="aboutus.html">About us</a></span></span>
+            </div>
+
+        </div>
+        <div style="width: 1%; flex-shrink: 0">
+
+        </div>
+    </header>
+    <div class="market-market" style="height:730px">
+
+
+        <span class="market-text02" style="margin-top:1%"><span>List</span></span>
+
+        <!--mobile side
+        <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
+             alt="IconsaxLineararrowup2185" style="cursor: pointer;"
+             class="market-iconsax-lineararrowup2"onclick="myFunction()" />
+        <img src="pics/down-whitearrow.png"
+             alt="IconsaxLineararrowup2185" style="cursor: pointer;display:none;"
+             class="market-iconsax-lineararrowdown2" onclick="myFunction()"/>
+            -->
+        <!--gpu-->
+
+        <div style="" class="hideme2">
+            <span class="market-text" style="margin-top:1%"><span>Filter</span></span>
+            <span class="market-text04"><span>Price</span></span>
+            <div class="slider22">
+                <div class="price-input">
+                    <div class="field">
+                        <span>Min</span>
+                        <input type="number" class="input-min" value="0">
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="field">
+                        <span>Max</span>
+                        <input type="number" class="input-max" value="2700">
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="progress"></div>
+                </div>
+                <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="5000" value="0" step="100">
+                    <input type="range" class="range-max" min="0" max="5000" value="2700" step="100">
+                </div>
+            </div>
+            <div class="containeridk">
+                <nav>
+                    <input id="toggle" type="checkbox" onclick="hidefromwhere()" checked>
+                    <h2 id="navme">Gpu</h2>
+                    <ul>
+                        <li><a href="?gpu=1060">Gpu 1060 rtx</a></li>
+                        <li><a href="?gpu=2060">Gpu 2060 rtx</a></li>
+                        <li><a href="?gpu=3060">Gpu 3060 rtx</a></li>
+                        <li><a href="?gpu=4090">Gpu 4090 rtx</a></li>
+                        <li><a href="market.html">reset</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <span class="market-text08">
+                From Where
+            </span>
+
+            <div class="market-component5">
+                <div class="market-component4">
+                    <input type="checkbox" id="scales" name="scale" class="market-rectangle3 checkbox-all" checked onclick="allthis()">
+                    <label for="scales" class="market-text14">All</label>
+                </div>
+                <div class="market-component4" style="margin-top:50px">
+                    <input type="checkbox" id="scales" name="scale" class="market-rectangle3 checkbox-amazon"
+                           onclick="testthis()">
+                    <label for="scales" class="market-text14">Amazon</label>
+                </div>
+                <div class="market-component4" style="margin-top:100px">
+                    <input type="checkbox" id="scales" name="scale" class="market-rectangle3  checkbox-aliex" onclick="testthis()">
+                    <label for="scales" class="market-text14">Aliexpress</label>
+                </div>
+                <div class="market-component4" style="margin-top:150px">
+                    <input type="checkbox" id="scales" name="scale" class="market-rectangle3 checkbox-ebay" onclick="testthis()">
+                    <label for="scales" class="market-text14">Ebay</label>
+                </div>
+                <div class="market-component4" style="margin-top:200px">
+                    <input type="checkbox" id="scales" name="scale" class="market-rectangle3 checkbox-alibaba" onclick="testthis()">
+                    <label for="scales" class="market-text14">Alibaba</label>
+                </div>
+            </div>
+        </div>
+        <!--end of gpu-->
+        <!--this are of full list-->
+        <div class="alllist">
+            <div class="market-component10">
+                <img src="pics/bigger-box-linear.jpg"
+                     alt="Rectangle61862"
+                     class="market-rectangle60" />
+                <img src="pics/background-gpu.jpg"
+                     alt="Rectangle51859"
+                     class="market-rectangle50" />
+                <span class="market-text27"><span>gpu 2060 rtx</span></span>
+                <span class="market-text29"><span>350$</span></span>
+                <span class="market-text31"><span>500$</span></span>
+                <span class="market-text35"><a href="more.html?a=2060&amazon=350$&ebay=370$&aliexpress=400$&alibaba=500$"><span>More</span></a></span>
+            </div>
+
+            <div class="market-component11">
+                <img src="pics/white-with-gray.png"
+                     alt="Rectangle6I187"
+                     class="market-rectangle61" />
+                <img src="pics/background-gpu.jpg"
+                     alt="Rectangle5I187"
+                     class="market-rectangle51" />
+                <span class="market-text37"><span>gpu 3060 rtx</span></span>
+                <span class="market-text39"><span>450$</span></span>
+                <span class="market-text41"><span>550$</span></span>
+                <span class="market-text45"><a href="more.html?a=3060&amazon=450$&ebay=470$&aliexpress=500$&alibaba=600$"><span>More</span></a></span>
+            </div>
+
+            <div class="market-component12">
+                <img src="pics/white-with-gray.png"
+                     alt="Rectangle6I188"
+                     class="market-rectangle62" />
+                <img src="pics/background-gpu.jpg"
+                     alt="Rectangle5I188"
+                     class="market-rectangle52" />
+                <span class="market-text47"><span>gpu 4090 rtx</span></span>
+                <span class="market-text49"><span>2200$</span></span>
+                <span class="market-text51"><span>2700$</span></span>
+                <span class="market-text55"><a href="more.html?a=4090&amazon=2200$&ebay=2270$&aliexpress=&alibaba=2700$"><span>More</span></a></span>
+            </div>
+        </div>
+
+
+        <!--disance between each is 200px -> margin-top : 200px * x  the icon at end will be at + 66 at end add 36-->
+        <!-- end of list-->
+        <div class="ShowMoreHide">
+            <img src="pics/down-whitearrow.png"
+                 alt="IconsaxLineararrowup21899"
+                 class="market-iconsax-lineararrowup21" style="cursor: pointer; display: none;"
+                 onclick="ShowMore()" />
+            <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
+                 alt="IconsaxLineararrowup2185" style="cursor: pointer;"
+                 class="market-iconsax-lineararrowup21" onclick="ShowMore()" />
+        </div>
+    </div>
+    <footer>
+        <div style="width:10%;flex-shrink:0">
+
+        </div>
+        <div class="home-component4">
+            <span class="home-text23">
+
+                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!4v1672594229964!6m8!1m7!1suKfE1mOybYzpG9uBxpFwWg!2m2!1d31.75332905867882!2d35.18790114499905!3f303.6035924592242!4f-25.514853167285608!5f0.7820865974627469"
+                        width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </span>
+            <div style="display:flex;gap:25%;">
+                <div class="home-email">
+                    <div class="home-ico24communicationemail">
+                        <img src="public/playground_assets/iconcolor3824-b7ak.svg"
+                             alt="Iconcolor3824"
+                             class="home-iconcolor" />
+                    </div>
+                </div>
+
+                <img src="public/playground_assets/iconsaxlinearfacebook3824-29v.svg"
+                     alt="IconsaxLinearfacebook3824"
+                     class="home-iconsax-linearfacebook" />
+                <div class="home-twitter">
+                    <div class="home-ico24socialmediatoolstwitter">
+                        <img src="public/playground_assets/iconcolor3825-91jl.svg"
+                             alt="Iconcolor3825"
+                             class="home-iconcolor1" />
+                    </div>
+                </div>
+            </div>
+            <span class="home-text28"><span>Yousef &amp;&amp; Taha</span></span>
+            <span class="home-text30"><span>Phone</span></span>
+            <div class="whathuh">
+                <a href="https://play.google.com/store/apps/details?id=com.appsnblue.smartdraw&hl=en" target="_blank">
+                    <img src="./pics/googleplay.jpg" />
+                </a>
+                <a href="https://apps.apple.com/us/app/random-all-things-generator/id1128190780" target="_blank">
+                    <img src="./pics/appstore.jpg" />
+                </a>
+            </div>
+        </div>
+        <div style="width:10%;flex-shrink:0">
+
+        </div>
+    </footer>
+    <script src="js/market.js"></script>
+
+</body>
+
+</html>

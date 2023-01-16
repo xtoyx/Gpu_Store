@@ -1,0 +1,275 @@
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+}
+.home-home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(57, 57, 57, 1);
+}
+/*
+.home-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1250px;
+  height: 90px;
+  position: absolute;
+  border-color: transparent;
+}*/
+.home-component2 {
+
+  top:10%;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.home-gpuicon1 {
+  top: 0px;
+  left: 1px;
+  width: 574px;
+  height: 472px;
+  position: relative;
+  border-color: transparent;
+  mix-blend-mode: multiply;
+}
+.home-text08 {
+  top: 135px;
+  left: 1px;
+  color: rgba(255, 255, 255, 1);
+  width: 386px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text10 {
+  top: 280px;
+  left: 190px;
+  color: rgba(255, 255, 255, 1);
+  width: 60%;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-line1 {
+  top: 188px;
+  left: 96px;
+  width: 110px;
+  height: 0px;
+  position: absolute;
+}
+.home-line2stroke {
+  top: 189px;
+  left: 299.80047607421875px;
+  width: 120px;
+  height: 1px;
+  position: absolute;
+}
+.home-line3 {
+  top: 188px;
+  left: 420px;
+  width: 100px;
+  height: 0px;
+  position: absolute;
+}
+.home-line4stroke {
+  top: 298px;
+  left: 95.935546875px;
+  width: 30px;
+  height: 1px;
+  position: absolute;
+}
+.home-component1 {
+  top: 0px;
+  left:5%;
+  width: 70%;
+  height: 143px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.home-text12 {
+  top: 1.1626015901565552px;
+  color: rgba(255, 255, 255, 1);
+  width: 104px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text14 {
+  top: 1.1626015901565552px;
+  left: 262px;
+  color: rgba(255, 255, 255, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text16 {
+  top: 1.1626015901565552px;
+  left: 170px;
+  color: rgba(255, 255, 255, 1);
+  width: 27px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text17 {
+  top: 1.1626015901565552px;
+  left: 417px;
+  color: rgba(255, 255, 255, 1);
+  width: 47px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text19 {
+  top: 1.1626015901565552px;
+  left: 533px;
+  color: rgba(255, 255, 255, 1);
+  width: 104px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-text21 {
+  left: 750px;
+  color: rgba(255, 255, 255, 1);
+  width: 27px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  text-align: center;
+  font-family: Inder;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+/*css screens*/
+@media all and (min-width:1203px) {
+    /* Desktop and bigger*/
+}
+
+@media all and (min-width:1025px) and (max-width:1202px) {
+    /* laptop*/
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    /* bigger then tablets but less then laptop*/
+   
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    /* tablets 
+    */
+   
+}
+/* Add this -- for tablets */
+@media screen and (min-width:320px) and (max-width:481px) {
+    /* mobile*/
+    .home-component2{
+        width:auto;
+    }
+    .home-component2 img{
+        left:0px;
+        width:100vw;
+    }
+    .home-component2 .home-text08{
+        top:28%;
+        width:75%;
+    }
+    .home-component2 .home-text10 {
+      top: 58%;
+      left:8%;
+      width: 100%;
+    }
+    .home-component1{
+        position:unset;
+        height:unset;
+        width:100vw;
+        align-items:center;
+        flex-direction:column;
+    }
+    .home-component1 span{
+        position:unset;
+    }
+}
