@@ -3,4 +3,6 @@
 Started At 01/01/2023 for this project and here What I Have Updated:-
 <br>
 - 16/01/2023  - fixed the reload page and range to make show only what price , also i did try to do header for all sizes Which is 4 Sizes I did the <b>header</b> and footer.<br>
-- 17/01/2023 - well i started with footer in tablet screen size and laptop every screen then im thinking of doing the body for every screen size right now in index.
+- 17/01/2023 
+  - [x] well i started with footer in tablet screen size and mobile .<br>
+  - [ ] between laptop and tablet size for body and footer.<br>
