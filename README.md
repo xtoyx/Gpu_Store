@@ -5,4 +5,5 @@ Started At 01/01/2023 for this project and here What I Have Updated:-
 - 16/01/2023  - fixed the reload page and range to make show only what price , also i did try to do header for all sizes Which is 4 Sizes I did the <b>header</b> and footer.<br>
 - 17/01/2023 
   - [x] well i started with footer in tablet screen size and mobile .<br>
-  - [ ] between laptop and tablet size for body and footer.<br>
+  - [x] between laptop and tablet size for footer.<br>
+  - [x] body index media query.<br> 
