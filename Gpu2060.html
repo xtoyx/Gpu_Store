@@ -81,7 +81,7 @@
         }
     </style>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/more.css" />
+    <link rel="stylesheet" href="css/gpu_deatils.css" />
     <link rel="stylesheet" href="css/common.css" type="text/css" />
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
@@ -89,48 +89,53 @@
 </head>
 <body>
     <header>
-        <div style="width:1%;flex-shrink:0">
+        <div style="flex-shrink:0">
 
         </div>
         <div class="home-component3">
+          <div id="mobilehamberger">
+              <img  class="home-iconsax-linearhambergermenu" 
+                   src="public/playground_assets/iconsaxlinearhambergermenu2411-aqzf.svg"/>
+          </div>
             <div>
-
                 <img src="pics/logo.png"
                      alt="Vector1110"
                      class="home-vector1" />
             </div>
-            <div style="width:40%;">
+            <div id="changethisscreen">
                 <span class="home-text"><span><a href="index.html">Home</a></span></span>
                 <span class="home-text02"><span><a href="Market.html">Market</a></span></span>
                 <span class="home-text04"><span><a href="aboutus.html">About us</a></span></span>
             </div>
 
         </div>
-        <div style="width: 1%; flex-shrink: 0">
+        <div style="flex-shrink: 0">
 
         </div>
     </header>
-    <div class="more-desktop1" style="height:700px;">
+    <div class="more-desktop1">
        
         <div class="more-component15">
-            <span class="more-text08">
-                <span>
-                    The GeForce RTX 2060 is a performance-segment graphics card by NVIDIA, launched on January 7th, 2019. Built on the 12 nm process,
-                    and based on the TU106 graphics processor, in its TU106-200A-KA-A1 variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on GeForce RTX 2060. Additionally,
-                    the DirectX 12 Ultimate capability guarantees support for hardware-raytracing, variable-rate shading and more, in upcoming video games. The TU106 graphics processor is a large chip with a die area of 445 mm² and 10,800 million transistors.
-                    Unlike the fully unlocked GeForce RTX 2070, which uses the same GPU but has all 2304 shaders enabled, NVIDIA has disabled some shading units on the GeForce RTX 2060 to reach the product's target shader count. It features 1920 shading units, 120 texture mapping units, and 48 ROPs.
-                    Also included are 240 tensor cores which help improve the speed of machine learning applications.
-                </span>
-            </span>
-            <span class="more-text22" style="margin-top:45%"><a href="https://www.nvidia.com/en-gb/geforce/news/gfecnt/nvidia-geforce-rtx-2060/" id="morechange">More Information</a></span>
-            <span class="more-text24" id="replaceme">Rtx 2060<span></span></span>
             <img src="pics/Rtx2060.jpg"
                  alt="Rectangle51982"
                  class="more-rectangle5" />
+            <div class="flexthis">
+                <span class="more-text24" id="replaceme">Rtx 2060<span></span></span>
+                <span class="more-text08">
+                         <span>
+                             The GeForce RTX 2060 is a performance-segment graphics card by NVIDIA, launched on January 7th, 2019. Built on the 12 nm process,
+                             and based on the TU106 graphics processor, in its TU106-200A-KA-A1 variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on GeForce RTX 2060. Additionally,
+                             the DirectX 12 Ultimate capability guarantees support for hardware-raytracing, variable-rate shading and more, in upcoming video games. The TU106 graphics processor is a large chip with a die area of 445 mm² and 10,800 million transistors.
+                             Unlike the fully unlocked GeForce RTX 2070, which uses the same GPU but has all 2304 shaders enabled, NVIDIA has disabled some shading units on the GeForce RTX 2060 to reach the product's target shader count. It features 1920 shading units, 120 texture mapping units, and 48 ROPs.
+                             Also included are 240 tensor cores which help improve the speed of machine learning applications.
+                         </span>
+                </span>
+                <span class="more-text22"><a href="https://www.nvidia.com/en-gb/geforce/news/gfecnt/nvidia-geforce-rtx-2060/" id="morechange">More Information</a></span>
+            </div>   
         </div>
     </div>
     <footer>
-        <div style="width:10%;flex-shrink:0">
+        <div style="flex-shrink:0" id="firstdivfooter">
 
         </div>
         <div class="home-component4">
@@ -139,28 +144,22 @@
                 <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!4v1672594229964!6m8!1m7!1suKfE1mOybYzpG9uBxpFwWg!2m2!1d31.75332905867882!2d35.18790114499905!3f303.6035924592242!4f-25.514853167285608!5f0.7820865974627469"
                         width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </span>
-            <div style="display:flex;gap:25%;">
-                <div class="home-email">
-                    <div class="home-ico24communicationemail">
-                        <img src="public/playground_assets/iconcolor3824-b7ak.svg"
-                             alt="Iconcolor3824"
-                             class="home-iconcolor" />
-                    </div>
-                </div>
-
-                <img src="public/playground_assets/iconsaxlinearfacebook3824-29v.svg"
-                     alt="IconsaxLinearfacebook3824"
-                     class="home-iconsax-linearfacebook" />
-                <div class="home-twitter">
-                    <div class="home-ico24socialmediatoolstwitter">
-                        <img src="public/playground_assets/iconcolor3825-91jl.svg"
-                             alt="Iconcolor3825"
-                             class="home-iconcolor1" />
-                    </div>
-                </div>
-            </div>
+           <div style="display:flex;" class="footermiddlechild">
+                    <img src="public/playground_assets/iconcolor3824-b7ak.svg"
+                         alt="Iconcolor3824"
+                         class="home-iconcolor" />
+            <img src="public/playground_assets/iconsaxlinearfacebook3824-29v.svg"
+                 alt="IconsaxLinearfacebook3824"
+                 class="home-iconsax-linearfacebook" />
+                    <img src="public/playground_assets/iconcolor3825-91jl.svg"
+                         alt="Iconcolor3825"
+                         class="home-iconcolor1" />
+           </div>
             <span class="home-text28"><span>Yousef &amp;&amp; Taha</span></span>
-            <span class="home-text30"><span>Phone</span></span>
+            <span class="home-text30">
+            <span>0542879500</span>
+            <span>0587757255</span>
+            </span>
             <div class="whathuh">
                 <a href="https://play.google.com/store/apps/details?id=com.appsnblue.smartdraw&hl=en" target="_blank">
                     <img src="./pics/googleplay.jpg" />
@@ -170,7 +169,7 @@
                 </a>
             </div>
         </div>
-        <div style="width:10%;flex-shrink:0">
+        <div style="flex-shrink:0" id="seconddivfooter">
 
         </div>
     </footer>

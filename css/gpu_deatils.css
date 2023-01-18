@@ -1,0 +1,461 @@
+  .more-desktop1 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(57, 57, 57, 1);
+  }
+  .more-component15 {
+    
+    left: 10%;
+    width: 1085px;
+    height: 477px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .more-text02 {
+    top: 237px;
+    left: 898px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text04 {
+    top: 336px;
+    left: 898px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text06 {
+    top: 447px;
+    left: 974px;
+    color: rgba(0, 0, 0, 1);
+    width: 45px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text08 {
+  
+    color: rgba(255, 255, 255, 1);
+    width: 40vw;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text10 {
+    top: 138px;
+    left: 714px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text12 {
+    top: 237px;
+    left: 714px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text14 {
+    top: 336px;
+    left: 714px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text16 {
+    top: 138px;
+    left: 47%;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: relative;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text18 {
+    top: 237px;
+    left: 512px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text20 {
+    top: 336px;
+    left: 512px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text22 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-text24 {
+    
+    color: rgba(255, 255, 255, 1);
+    width: 20vw;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .more-rectangle5 {
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 392px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .more-component4 {
+    top: 846px;
+    left: 0px;
+    width: 1280px;
+    height: 153.7777557373047px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .more-line7 {
+    top: 1.7777618169784546px;
+    left: 0px;
+    width: 1280px;
+    height: 0px;
+    position: absolute;
+  }
+  
+
+/*for css screen*/
+@media all and (min-width:1203px) {
+  /* Desktop and bigger*/
+  .more-desktop1{
+    height: 700px;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 43%;
+  }
+  .more-component15{
+    width: 100vw;
+    flex:50%;
+    position: relative;
+  }
+  .more-rectangle5{
+    width:40vw;
+    height: 80%;
+    margin-top: 5%;
+  }
+  .more-text08{
+    margin-top: 5%;
+    margin-left:1%;
+  }
+  .more-text22{
+    margin-top:2%;
+  }
+}
+
+@media all and (min-width:1100px) and (max-width:1202px) {
+  /* laptop*/
+  .more-desktop1{
+    height: 700px;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 43%;
+  }
+  .more-component15{
+    width: 100vw;
+    flex:50%;
+    position: relative;
+  }
+  .more-rectangle5{
+    width:40vw;
+    height: auto;
+  }
+  .more-text08{
+    margin-top: 5%;
+    margin-left:1%;
+  }
+  .more-text22{
+    margin-top:2%;
+  }
+}
+/* this for width because it changes */
+@media all and (min-width:1025px) and (max-width:1100px){
+  /* bigger then tablets but less then laptop */
+  .more-desktop1{
+    height: 700px;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 43%;
+  }
+  .more-component15{
+    width: 100vw;
+    flex:50%;
+    position: relative;
+  }
+  .more-rectangle5{
+    width:40vw;
+    height: auto;
+  }
+  .more-text08{
+    margin-top: 5%;
+    margin-left:1%;
+  }
+  .more-text22{
+    margin-top:2%;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  /* bigger then tablets but less then laptop */
+  .more-desktop1{
+    height: 700px;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 43%;
+  }
+  .more-component15{
+    width: 100vw;
+    flex:50%;
+    position: relative;
+  }
+  .more-rectangle5{
+    width:40vw;
+    height: auto;
+  }
+  .more-text08{
+    margin-top: 5%;
+    margin-left:1%;
+  }
+  .more-text22{
+    margin-top:2%;
+  }
+}
+
+@media screen and (min-width:490px) and (max-width:768px) {
+  /* tablets 
+  */
+  .more-desktop1{
+    height: 100vh;
+  }
+  .more-component15{
+    width: 100vw;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    left:0;
+  }
+  .more-rectangle5{
+    width:61vw;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  .more-text24{
+    width: 30vw;
+    margin-left:34vw;
+  }
+  .more-text08{
+    width: 90vw;
+  }
+  .more-text22{
+    margin-left:34vw;
+    margin-top:2%;
+  }
+}
+@media screen and (min-width:320px) and (max-width:490px) {
+  /* mobile*/
+  .more-desktop1{
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .more-component15{
+    width: 100vw;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    left:0;
+  }
+  .more-rectangle5{
+    width:100vw;
+    height: 100%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .flexthis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  .more-text24{
+    width: auto;
+    margin-left:22vw;
+    letter-spacing: 1rem;
+  }
+  .more-text08{
+    width: 90vw;
+  }
+  .more-text22{
+    width: auto;
+    margin-top:1%;
+    margin-left:15vw;
+    letter-spacing: 0.5rem;
+  }
+}

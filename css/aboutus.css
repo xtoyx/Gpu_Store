@@ -55,30 +55,37 @@ html {
     .button:hover {
         background-color: #555;
     }
-    
-/* Screen Sizes */
-@media all and (min-width:1203px) {
-    /* Desktop and bigger*/
-   
-}
-
-@media all and (min-width:1025px) and (max-width:1202px) {
-    /* laptop*/
-    
-}
-
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:908px) {
     /* bigger then tablets but less then laptop*/
-    
+    .f-a-q-desktop1 .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-a-q-desktop1 .row .column{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
     /* tablets 
     */
-   
+    .f-a-q-desktop1 .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-a-q-desktop1 .row .column{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 @media screen and (min-width:320px) and (max-width:481px) {
     /* mobile*/
-    
+    .f-a-q-desktop1 .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-a-q-desktop1 .row .column{
+        width: 100%;
+    }
 }
