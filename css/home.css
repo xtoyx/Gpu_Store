@@ -109,7 +109,7 @@
 }
 .home-component1 {
   top: 0px;
-  left:5%;
+  left:0%;
   width: 70%;
   height: 143px;
   display: flex;
@@ -117,13 +117,12 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  gap:10%;
 }
 .home-text12 {
-  top: 1.1626015901565552px;
   color: rgba(255, 255, 255, 1);
   width: 104px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -136,12 +135,9 @@
   text-decoration: none;
 }
 .home-text14 {
-  top: 1.1626015901565552px;
-  left: 262px;
   color: rgba(255, 255, 255, 1);
   width: 81px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -154,12 +150,10 @@
   text-decoration: none;
 }
 .home-text16 {
-  top: 1.1626015901565552px;
-  left: 170px;
+ 
   color: rgba(255, 255, 255, 1);
   width: 27px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -172,12 +166,10 @@
   text-decoration: none;
 }
 .home-text17 {
-  top: 1.1626015901565552px;
-  left: 417px;
+ 
   color: rgba(255, 255, 255, 1);
   width: 47px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -190,12 +182,10 @@
   text-decoration: none;
 }
 .home-text19 {
-  top: 1.1626015901565552px;
-  left: 533px;
+  
   color: rgba(255, 255, 255, 1);
   width: 104px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -208,11 +198,10 @@
   text-decoration: none;
 }
 .home-text21 {
-  left: 750px;
+  
   color: rgba(255, 255, 255, 1);
   width: 27px;
   height: auto;
-  position: absolute;
   font-size: 40px;
   align-self: auto;
   text-align: center;
@@ -227,23 +216,123 @@
 /*css screens*/
 @media all and (min-width:1203px) {
     /* Desktop and bigger*/
+    .hidethisidk{
+      display: none;
+  }
 }
 
-@media all and (min-width:1025px) and (max-width:1202px) {
+@media all and (min-width:1100px) and (max-width:1202px) {
     /* laptop*/
+    .home-container{
+      min-height: 80vh;
+    }
+    .hidethisidk{
+      display: none;
+  }
+  
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1100px) {
     /* bigger then tablets but less then laptop*/
-   
+    .home-container{
+      min-height: 80vh;
+    }
+    .home-component2 img{
+      scale: 1.2;
+      width: auto;
+      height: auto;
+    }
+    .home-component2 .home-text08{
+     display: none;
+    }
+    .home-component2 .home-text10{
+      display: none;
+    }
+    .hidethisidk{
+      top: 45%;
+      left: 1vw;
+      color: rgba(255, 255, 255, 1);
+      width: 60vw;
+      height: auto;
+      position: absolute;
+      font-size: 2rem;
+      align-self: auto;
+      text-align: center;
+      font-family: Inder;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+      letter-spacing:0.1rem;
+    }
+    
 }
-
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .home-component2 .home-text08{
+    width: auto;
+    top:10vw;
+    left:6vw;
+  }
+  .home-component2 .home-text10{
+    width: 60vw;
+    top: 28vw;
+    left:7vw;
+  }
+  .hidethisidk{
+    top: 45%;
+    left: 4vw;
+    color: rgba(255, 255, 255, 1);
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    font-size: 2rem;
+    align-self: auto;
+    text-align: center;
+    font-family: Inder;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    letter-spacing:0.1rem;
+  }
+}
 @media screen and (min-width:481px) and (max-width:768px) {
     /* tablets 
     */
-   
+    .home-component2{
+      width:auto;
+  }
+  .home-component2 img{
+      left:0px;
+      width:80vw;
+  }
+  .home-component2 .home-text08{
+      top:28%;
+      width:63%;
+  }
+  .home-component2 .home-text10 {
+    top: 60%;
+    left:16%;
+    width: 100%;
+  }
+  .home-component1{
+      position:unset;
+      height:unset;
+      width:100vw;
+      align-items:center;
+      flex-direction:column;
+  }
+  .home-component1 span{
+      position:unset;
+  }
+  .hidethisidk{
+    display: none;
 }
-/* Add this -- for tablets */
+}
 @media screen and (min-width:320px) and (max-width:481px) {
     /* mobile*/
     .home-component2{
@@ -259,7 +348,7 @@
     }
     .home-component2 .home-text10 {
       top: 58%;
-      left:8%;
+      left:10%;
       width: 100%;
     }
     .home-component1{
@@ -272,4 +361,7 @@
     .home-component1 span{
         position:unset;
     }
+    .hidethisidk{
+      display: none;
+  }
 }

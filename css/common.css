@@ -235,7 +235,7 @@ span .activeclass {
 .home-text28 {
    
     color: rgba(255, 255, 255, 1);
-    width: 131px;
+    width: 1rem;
     height: auto;
     position: relative;
     font-size: 20px;
@@ -245,6 +245,7 @@ span .activeclass {
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
+    margin-left:1%;
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
@@ -297,9 +298,12 @@ span .activeclass {
     #mobilehamberger {
         display: none;
     }
+    footer #firstdivfooter,#seconddivfooter{
+        width: 6vw;
+    }
 }
 
-@media all and (min-width:1025px) and (max-width:1202px) {
+@media all and (min-width:1100px) and (max-width:1202px) {
     /* laptop*/
     #headerstart {
         width: 1%;
@@ -314,10 +318,40 @@ span .activeclass {
     #mobilehamberger {
         display: none;
     }
+    footer #firstdivfooter,#seconddivfooter{
+        width: 6vw;
+    }
 }
-
+/* this for width because it changes */
+@media all and (min-width:1025px) and (max-width:1100px){
+    /* bigger then tablets but less then laptop */
+    #headerstart {
+        width: 1%;
+    }
+    #headerend {
+        width: 1%;
+    }
+    .home-component3 #changethisscreen {
+        width: 47%;
+    }
+    header #mobilehamberger {
+        display: none;
+    }
+    footer #firstdivfooter,#seconddivfooter{
+        display: none;
+    }
+    .home-component4{
+        flex-wrap: wrap;
+        flex:1;
+        justify-content: center;
+    }
+    footer .whathuh{
+        left: 1%;
+        right: 0;
+    }
+}
 @media screen and (min-width:769px) and (max-width:1024px) {
-    /* bigger then tablets but less then laptop*/
+    /* bigger then tablets but less then laptop */
     #headerstart {
         width: 1%;
     }
@@ -331,11 +365,22 @@ span .activeclass {
     #mobilehamberger {
         display: none;
     }
+    footer #firstdivfooter,#seconddivfooter{
+        display: none;
+    }
+    .home-component4{
+        flex-wrap: wrap;
+        flex:1;
+        justify-content: center;
+    }
+    footer .whathuh{
+        left: 1%;
+        right: 0;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
     /* tablets 
-        nav bar hamburger
     */
     #headerstart {
         width: 2%;
@@ -353,6 +398,42 @@ span .activeclass {
     .home-iconsax-linearhambergermenu{
         margin:30px;
         margin-left:10%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer #firstdivfooter,#seconddivfooter{
+        width: 6vw;
+    }
+    .footermiddlechild {
+        gap: 20%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .home-text28 {
+        width: auto;
+        margin-left:5%;
+    }
+
+    .home-text30 {
+        width: auto;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whathuh {
+        right: 0px;
+        left: 3%;
+    }
+
+    .home-component4 {
+        flex-direction: column;
+    }
+
+    .home-text23 iframe:hover {
+        transform: scale(2);
     }
 }
 
@@ -378,6 +459,9 @@ span .activeclass {
     footer{
         flex-direction:column;
     }
+    footer #firstdivfooter,#seconddivfooter{
+        width: 6vw;
+    }
     .footermiddlechild {
        gap:15%;
        width:50%;
@@ -388,6 +472,9 @@ span .activeclass {
     }
     .home-text30{
         width:auto;
+        display: flex;
+        flex-direction: column;
+        left:1%;
     }
     .whathuh{
         right:0px;
