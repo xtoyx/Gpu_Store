@@ -9,5 +9,5 @@ Started At 01/01/2023 for this project and here What I Have Updated:-
   - [x] body index media query.<br>
 - 18/01/2023
   - [x] well finished gpu1060,gpu2060,gpu3060,gpu4090 and aboutus,faq<br>
-  - [ ] well trying finish form.<br>
+  - [x] well trying finish form.<br>
   - [ ] a bug in market for pageonreload which go to show all by defauilt.<br> 
