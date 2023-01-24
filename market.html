@@ -124,20 +124,20 @@
 
         </div>
     </header>
-    <div class="market-market" style="height:730px">
+    <div class="market-market" style="height: 730px;">
         <span class="market-text02" style="margin-top:1%"><span>List</span></span>
-
-        <!--mobile side
-        <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
-             alt="IconsaxLineararrowup2185" style="cursor: pointer;"
-             class="market-iconsax-lineararrowup2"onclick="myFunction()" />
-        <img src="pics/down-whitearrow.png"
-             alt="IconsaxLineararrowup2185" style="cursor: pointer;display:none;"
-             class="market-iconsax-lineararrowdown2" onclick="myFunction()"/>
-            -->
+        <div class="filtermobiletotablet">
+            <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
+                 alt="IconsaxLineararrowup2185" style="cursor: pointer;"
+                 class="market-iconsax-lineararrowup2"onclick="filtermobiletotablet()" />
+            <img src="pics/down-whitearrow.png"
+                 alt="IconsaxLineararrowup2185" style="cursor: pointer;"
+                 class="market-iconsax-lineararrowdown2" onclick="filtermobiletotablet()"/>
+        </div>
+        <span class="market-text" style="margin-top:1%"><span>Filter</span></span>
+           
         <!--gpu-->
         <div class="hideme2">
-            <span class="market-text" style="margin-top:1%"><span>Filter</span></span>
             <span class="market-text04"><span>Price</span></span>
             <div class="slider22">
                 <div class="price-input">
@@ -246,7 +246,7 @@
 
         <!--disance between each is 200px -> margin-top : 200px * x  the icon at end will be at + 66 at end add 36-->
         <!-- end of list-->
-        <div class="ShowMoreHide">
+        <div class="ShowMoreHideDesktop">
             <img src="pics/down-whitearrow.png"
                  alt="IconsaxLineararrowup21899"
                  class="market-iconsax-lineararrowup21" style="cursor: pointer; display: none;"
@@ -254,6 +254,15 @@
             <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
                  alt="IconsaxLineararrowup2185" style="cursor: pointer;"
                  class="market-iconsax-lineararrowup21" onclick="ShowMore()" />
+        </div>
+        <div class="ShowMoreHideMobile">
+            <img src="pics/down-whitearrow.png"
+                 alt="IconsaxLineararrowup21899"
+                 class="market-iconsax-lineararrowup21" style="cursor: pointer; display: none;"
+                 onclick="ShowMoreMobile()" />
+            <img src="public/playground_assets/iconsaxlineararrowup2185-w66ed.svg"
+                 alt="IconsaxLineararrowup2185" style="cursor: pointer;"
+                 class="market-iconsax-lineararrowup21" onclick="ShowMoreMobile()" />
         </div>
     </div>
     <footer>

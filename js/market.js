@@ -299,7 +299,8 @@ function testthis() {
                                     ss(i, countereee);
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
-                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -312,7 +313,8 @@ function testthis() {
                                     ss(i, countereee);
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
-                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -325,6 +327,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;                                    
                                 }
                                 else {
@@ -337,6 +340,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;                                   
                                 }
                                 else {
@@ -352,6 +356,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -365,6 +370,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -377,6 +383,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -389,6 +396,7 @@ function testthis() {
                                     array[i].style.top = `${494 + 200 * countereee}px`;
                                     document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
                                     document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                                     countereee++;
                                 }
                                 else {
@@ -396,11 +404,12 @@ function testthis() {
                                 }
                         }
                     }
-                    else if (i >= 3 && !ThereMore && !(parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
+                    else if (i >= 3 && !ThereMore && (parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
                         if (array[i] != undefined)
                             array[i].remove();
                         document.getElementsByClassName("market-market")[0].style.height = `730px`;
                         document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `694px`;
+                        document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `694px`;
                     }
                 }
             else
@@ -465,6 +474,7 @@ function testthis() {
                         array[i].style.top = `${494 + 200 * countereee}px`;
                         document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`;
                         document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                        document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                         countereee++;
                     }
                     else if (iwillreach == counter && array[i]) {
@@ -472,6 +482,7 @@ function testthis() {
                         array[i].style.top = `${494 + 200 * countereee}px`;
                         document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`;
                         document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                        document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                         countereee++;
                     }
                     else {
@@ -479,7 +490,7 @@ function testthis() {
                             array[i].style.display = "none";
                     }
                 }
-                else if (i >= 3 && !ThereMore && !(parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
+                else if (i >= 3 && !ThereMore && (parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
                     if (array[i] != undefined)
                         array[i].remove();
                     
@@ -650,8 +661,6 @@ function allthis() {
     var alllist = document.getElementsByClassName(`alllist`);
     var array = alllist[0].children;
     var countereee = 1;
-    //maxVal1 
-    //minVal1
 
     let all = document.getElementsByClassName("checkbox-all")[0];
     let amazon = document.getElementsByClassName("checkbox-amazon")[0];
@@ -677,26 +686,30 @@ function allthis() {
                 priceto.innerHTML = Data[i].PriceTo;
                 array[i].children[5].children[0].href = `more.html?a=${Data[i].Name}&amazon=${Data[i].Price_Amazon}&ebay=${Data[i].Price_Ebay}&aliexpress=${Data[i].Price_Aliexpress}&alibaba=${Data[i].Price_Alibaba}`;
             }
-            else if (i >= 3 && parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1) {
+            else if (i >= 3 && ThereMore && parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1) {
                 if (array[i] == undefined) {
                     ss(i, countereee);
                     array[i].style.top = `${494 + 200 * countereee}px`;
-                    document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
-                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                    document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`;
+                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
                     countereee++;
                 }
                 else {
                     array[i].style.display = "block";
                     array[i].style.top = `${494 + 200 * countereee}px`;
-                    document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`
-                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`
+                    document.getElementsByClassName("market-market")[0].style.height = `${730 + 200 * countereee}px`;                    
+                    document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `${694 + 200 * countereee}px`;
+                    document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `${694 + 170 * countereee}px`
+                    countereee++;
                 }
             }
-            else if (i >= 3 && !ThereMore && !(parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
+            else if (i >= 3 && !ThereMore && (parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
                 if (array[i] != undefined)
                     array[i].remove()
                 document.getElementsByClassName("market-market")[0].style.height = `730px`;
                 document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `694px`;
+                document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `694px`;
             }
         }
 
@@ -712,13 +725,42 @@ function allthis() {
                 array[i].style.display = "none";
                 document.getElementsByClassName("market-market")[0].style.height = "730px";
             }
-    }
-
-   
+    }   
 }
 
 function ShowMore() {
-    var ShowMoreHide = document.getElementsByClassName("ShowMoreHide")[0];
+    var ShowMoreHide = document.getElementsByClassName("ShowMoreHideDesktop")[0];
+    if (ShowMoreHide.children[0].style.display == "none") {
+        console.log("White Down");
+        ThereMore = true;
+        ShowMoreHide.children[0].style.display = "block";
+        ShowMoreHide.children[1].style.display = "none";
+    }
+    else {
+        console.log("White Up");
+        ThereMore = false;
+        ShowMoreHide.children[0].style.display = "none";
+        ShowMoreHide.children[1].style.display = "block";
+    }
+    setTimeout(() => {
+        console.log(ThereMore);
+        let all = document.getElementsByClassName("checkbox-all")[0];
+        let amazon = document.getElementsByClassName("checkbox-amazon")[0];
+        let aliexpress = document.getElementsByClassName("checkbox-aliex")[0];
+        let ebay = document.getElementsByClassName("checkbox-ebay")[0];
+        let alibaba = document.getElementsByClassName("checkbox-alibaba")[0];
+        if (all.checked) {
+            allthis();
+        }
+        if (amazon.checked || aliexpress.checked || ebay.checked || alibaba.checked)
+            testthis();
+    }, 2000);
+}
+
+// Mobile Side
+
+function ShowMoreMobile() {
+    var ShowMoreHide = document.getElementsByClassName("ShowMoreHideMobile")[0];
     if (ShowMoreHide.children[0].style.display == "none") {
         console.log("White Down");
         ThereMore = true;
@@ -743,25 +785,28 @@ function ShowMore() {
         if (amazon.checked || aliexpress.checked || ebay.checked || alibaba.checked)
             testthis();
     }, 2000);
-}
-     /*
-   function myFunction() {
+}  
+function filtermobiletotablet() {
        var x = document.getElementsByClassName("hideme2");
        var arrowup = document.getElementsByClassName('market-iconsax-lineararrowup2');
        var arrowdown = document.getElementsByClassName('market-iconsax-lineararrowdown2');
-       
-   if (x[0].style.display === "none") {
-       x[0].style.display = "block";
-       arrowup[0].style.display = 'block';
-       arrowdown[0].style.display = 'none';
-         } else {
-       x[0].style.display = "none";
-       arrowdown[0].style.display = 'block';
-       arrowup[0].style.display = 'none';
+       var alllist=document.getElementsByClassName("alllist")[0];
+       if(arrowup[0].style.display =="none") {
+        arrowup[0].style.display="block";
+        arrowdown[0].style.display="none";
+        alllist.style.display="none";
+       } else {
+        arrowup[0].style.display="none";
+        arrowdown[0].style.display="block";
+        alllist.style.display="block";
+       }
+        if (x[0].style.display === "none") 
+            x[0].style.display = "block";
+        else 
+            x[0].style.display = "none";
+}
+//End Of Mobile Side 
 
-         }
-     }
-     */
 //Self Made
 function ss(i1, countereee) {
         const div = document.createElement("div");
@@ -796,4 +841,4 @@ function ss(i1, countereee) {
     div.appendChild(span4);
     div.classList.add(countereee);
         alllist.append(div);
-    }
+}

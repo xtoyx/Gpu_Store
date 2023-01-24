@@ -62,18 +62,18 @@
   text-decoration: none;
 }
 .market-iconsax-lineararrowup2 {
-  top: 102px;
-  left: 26%;
+  top: 1vw;
+  left: 25%;
+  position: absolute;
   width: 24px;
   height: 24px;
-  position: absolute;
 }
 .market-iconsax-lineararrowdown2 {
-    top: 102px;
-    left: 26%;
+  top: 1vw;
+  left: 25%;
+  position: absolute;
     width: 24px;
     height: 24px;
-    position: absolute;
 }
 .market-text04 {
   top: 80px;
@@ -653,7 +653,7 @@ input[type="range"]::-moz-range-thumb {
 .market-rectangle60 {
   top: 0px;
   left: 0px;
-  width: 856px;
+  width: 67vw;
   height: 134px;
   position: absolute;
   border-color: transparent;
@@ -749,7 +749,7 @@ input[type="range"]::-moz-range-thumb {
 }
 .market-text35 {
     top: 65%;
-    left: 89%;
+    left: 59.5vw;
     color: rgba(0, 0, 0, 1);
     height: auto;
     position: relative;
@@ -778,7 +778,7 @@ input[type="range"]::-moz-range-thumb {
 .market-rectangle61 {
   top: 0px;
   left: 0px;
-  width: 856px;
+  width: 67vw;
   height: 134px;
   position: absolute;
   border-color: transparent;
@@ -874,7 +874,7 @@ input[type="range"]::-moz-range-thumb {
 }
 .market-text45 {
     top: 65%;
-    left: 89%;
+    left: 59.5vw;
     color: rgba(0, 0, 0, 1);
     height: auto;
     position: relative;
@@ -901,7 +901,7 @@ input[type="range"]::-moz-range-thumb {
 .market-rectangle62 {
   top: 0px;
   left: 0px;
-  width: 856px;
+  width: 67vw;
   height: 134px;
   position: absolute;
   border-color: transparent;
@@ -997,7 +997,7 @@ input[type="range"]::-moz-range-thumb {
 }
 .market-text55 {
     top: 65%;
-    left: 89%;
+    left: 59.5vw;
     color: rgba(0, 0, 0, 1);
     height: auto;
     position: relative;
@@ -1203,7 +1203,7 @@ input[type="range"]::-moz-range-thumb {
   flex-shrink: 0;
   border-color: transparent;
 }
-
+/* droplist */
 nav {
     margin-top: 40px;
     position: absolute;
@@ -1321,3 +1321,331 @@ nav ul {
         font-weight: 200;
         text-decoration: none;
     }
+
+/*for css screen*/
+@media all and (min-width:1203px) {
+  /* Desktop and bigger*/
+  .filtermobiletotablet{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:none;
+  }
+}
+
+@media all and (min-width:1100px) and (max-width:1202px) {
+  /* laptop*/
+  .filtermobiletotablet{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:none;
+  }
+}
+/* this for width because it changes */
+@media all and (min-width:1025px) and (max-width:1140px){
+  /* bigger then tablets but less then laptop */
+  .filtermobiletotablet{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:none;
+  }
+  .market-rectangle60{
+    width: 63vw;
+  }
+  .market-rectangle61{
+    width: 63vw;
+  }
+  .market-rectangle62{
+    width: 63vw;
+  }
+  .market-text35{
+    left:55.5vw;
+  }
+  .market-text45{
+    left:55.5vw;
+  }
+  .market-text55{
+    left:55.5vw;
+  }
+}
+@media screen and (min-width:910px) and (max-width:1024px) {
+  /* bigger then tablets but less then laptop */
+  .filtermobiletotablet{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:none;
+  }
+  .market-rectangle60{
+    width: 59vw;
+  }
+  .market-rectangle61{
+    width: 59vw;
+  }
+  .market-rectangle62{
+    width: 59vw;
+  }
+  .market-text35{
+    left:51.5vw;
+  }
+  .market-text45{
+    left:51.5vw;
+  }
+  .market-text55{
+    left:51.5vw;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:910px) {
+  /* bigger then tablets but less then laptop */
+  .filtermobiletotablet{
+    display: block;
+  }
+  .market-iconsax-lineararrowup2{
+    display: none;
+    left:90vw;
+  }
+  .market-iconsax-lineararrowdown2{
+    display: block;
+    left:90vw;
+  }
+  .hideme2{
+    display: none;
+  }
+  .market-text02{
+    left:45px;
+  }
+  .market-text{
+    left:80vw;
+  }
+  .ShowMoreHideDesktop{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:block;
+  }
+  /* Changing All List etc */
+  .market-component10{
+    left:5vw;
+  }
+  .market-component11{
+    left:5vw
+  }
+  .market-component12{
+    left:5vw;
+  }
+  .market-rectangle60{
+    width: 87vw;
+  }
+  .market-rectangle61{
+    width: 87vw;
+  }
+  .market-rectangle62{
+    width: 87vw;
+  }
+  .market-text35{
+    left:78.5vw;
+  }
+  .market-text45{
+    left:78.5vw;
+  }
+  .market-text55{
+    left:78.5vw;
+  }
+  .market-iconsax-lineararrowup21{
+    left:50vw;
+  }
+  .hideme2 .slider22{
+    width: 90vw;
+  }
+  .hideme2 .containeridk nav{
+    width: clamp(90vw, 20vw,100%);
+  }
+  .hideme2 .market-component5{
+    left:43vw;
+  }
+}
+
+@media screen and (min-width:505px) and (max-width:768px) {
+  /* tablets 
+  */
+  .filtermobiletotablet{
+    display: block;
+  }
+  .market-iconsax-lineararrowup2{
+    display: none;
+    left:90vw;
+  }
+  .market-iconsax-lineararrowdown2{
+    display: block;
+    left:90vw;
+  }
+  .hideme2{
+    display: none;
+  }
+  .market-text02{
+    left:45px;
+  }
+  .market-text{
+    left:80vw;
+  }
+  .ShowMoreHideDesktop{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:block;
+  }
+  /* Changing All List etc */
+  .market-component10{
+    left:5vw;
+  }
+  .market-component11{
+    left:5vw
+  }
+  .market-component12{
+    left:5vw;
+  }
+  .market-rectangle60{
+    width: 87vw;
+  }
+  .market-rectangle61{
+    width: 87vw;
+  }
+  .market-rectangle62{
+    width: 87vw;
+  }
+  .market-text35{
+    left:78.5vw;
+  }
+  .market-text45{
+    left:78.5vw;
+  }
+  .market-text55{
+    left:78.5vw;
+  }
+  .market-iconsax-lineararrowup21{
+    left:50vw;
+  }
+  .hideme2 .slider22{
+    width: 90vw;
+  }
+  .hideme2 .containeridk nav{
+    width: clamp(90vw, 20vw,100%);
+  }
+  .hideme2 .market-component5{
+    left:43vw;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:505px) {
+  /* mobile*/
+  .filtermobiletotablet{
+    display: block;
+  }
+  .market-iconsax-lineararrowup2{
+    display: none;
+    left:90vw;
+  }
+  .market-iconsax-lineararrowdown2{
+    display: block;
+    left:90vw;
+  }
+  .hideme2{
+    display: none;
+  }
+  .market-text02{
+    left:45px;
+  }
+  .market-text{
+    left:67vw;
+  }
+  .ShowMoreHideDesktop{
+    display: none;
+  }
+  .ShowMoreHideMobile{
+    display:block;
+  }
+  /* Changing All List etc */
+  .market-component10{
+    left:5vw;
+  }
+  .market-component11{
+    left:5vw
+  }
+  .market-component12{
+    left:5vw;
+  }
+  .market-rectangle60{
+    width: 87vw;
+  }
+  .market-rectangle61{
+    width: 87vw;
+  }
+  .market-rectangle62{
+    width: 87vw;
+  }
+  .market-text35{
+    left:45.5vw;
+    top:77%;
+  }
+  .market-text45{
+    left:45.5vw;
+    top:77%;
+  }
+  .market-text55{
+    left:45.5vw;
+    top:77%;
+  }
+  .market-text31{
+    left:70vw;
+  }
+  .market-text41{
+    left:70vw;
+  }
+  .market-text51{
+    left:70vw;
+  }
+  .market-rectangle50{
+    width:35vw;
+  }
+  .market-rectangle51{
+    width:35vw;
+  }
+  .market-rectangle52{
+    width:35vw;
+  }
+  .market-text29{
+    left:45vw;
+  }
+  .market-text39{
+    left:45vw;
+  }
+  .market-text49{
+    left:45vw;
+  }
+  .market-text27{
+    left:45vw;
+  }
+  .market-text37{
+    left:45vw;
+  }
+  .market-text47{
+    left:45vw;
+  }
+  .market-iconsax-lineararrowup21{
+    left:50vw;
+  }
+  /*for hideme2 */
+  .hideme2 .slider22{
+    width: 90vw;
+  }
+  .hideme2 .containeridk nav{
+    width: clamp(85vw, 20vw,100%);
+  }
+  .hideme2 .market-component5{
+    left:40vw;
+  }
+}
+/* todo : fix bug when u in mobile then switch to Desktop */
