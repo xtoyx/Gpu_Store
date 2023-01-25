@@ -157,8 +157,8 @@ rangeInput.forEach((input) => {
             let sliderprogress = document.getElementsByClassName("slider")[0].children[0];
             sliderprogress.style.borderRadius = "5px";
         }
-
         timerId = setTimeout(function () {
+            console.log("im working here" + maxVal);
             maxVal1 = maxVal;
             minVal1 = minVal;
             let all = document.getElementsByClassName("checkbox-all")[0];
@@ -674,7 +674,7 @@ function allthis() {
         alibaba.checked = false;
         //show all
         for (let i = 0; i < Data.length; i++) {
-            if (i < 3 && parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1) {
+            if (i < 3 && (parseInt(Data[i].PriceFrom.replace('$', '')) >= minVal1 && parseInt(Data[i].PriceTo.replace('$', '')) <= maxVal1)) {
                 array[i].style.display = 'block';
                 let image = array[i].children[1] //img for gpu
                 let name = array[i].children[2] //name
@@ -710,6 +710,9 @@ function allthis() {
                 document.getElementsByClassName("market-market")[0].style.height = `730px`;
                 document.getElementsByClassName("market-iconsax-lineararrowup21")[0].style.top = `694px`;
                 document.getElementsByClassName("market-iconsax-lineararrowup21")[2].style.top = `694px`;
+            }
+            else {
+                array[i].style.display="none";
             }
         }
 
