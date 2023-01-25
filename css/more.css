@@ -19,7 +19,7 @@
 }
 .more-component15 {
   
-  left: 109px;
+  left: 10vw;
   width: 1085px;
   height: 477px;
   display: flex;
@@ -102,8 +102,8 @@
   text-decoration: none;
 }
 .more-text08 {
-  top: 56px;
-  left: 512px;
+  top: 10%;
+  left: 45%;
   color: rgba(255, 255, 255, 1);
   width: 464px;
   height: auto;
@@ -229,8 +229,8 @@
   text-decoration: none;
 }
 .more-text22 {
-  top: 25%;
-  left: 513px;
+  top: 24%;
+  left: 45%;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: relative;
@@ -246,7 +246,7 @@
   text-decoration: none;
 }
 .more-text24 {
-  left: 512px;
+  left: 45%;
   color: rgba(255, 255, 255, 1);
   width: 573px;
   height: auto;
@@ -265,9 +265,9 @@
 }
 .more-rectangle5 {
   top: 0px;
-  left: 0px;
-  width: 450px;
-  height: 392px;
+  left: 10%;
+  width: 35vw;
+  height: 50vh;
   position: absolute;
   border-color: transparent;
 }
@@ -544,4 +544,119 @@
   width: 53px;
   height: 42px;
   position: absolute;
+}
+/*for css screen*/
+@media all and (min-width:1203px) {
+  /* Desktop and bigger*/
+  .more-desktop1{
+    height: 600px;
+  }
+}
+
+@media all and (min-width:1100px) and (max-width:1202px) {
+  /* laptop*/
+  .more-desktop1{
+    height: 600px;
+  }
+  .more-rectangle5{
+    width: 40vw;
+  }
+}
+/* this for width because it changes */
+@media all and (min-width:1025px) and (max-width:1100px){
+  /* bigger then tablets but less then laptop */
+  .more-rectangle5{
+    width: 45vw;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  /* bigger then tablets but less then laptop */
+  .more-desktop1{
+    flex-direction: column;
+    height: 1000px;
+  }
+  .more-rectangle5{
+    width: 60%;
+    left:23%;
+  }
+  .more-component15{
+    left:20vw;
+    width: auto;
+    height: 500px;
+    top:50vh;
+  }
+  .more-component15 .more-text24{
+    left:25vw;
+    width: 20vw;
+  }
+  .more-component15 .more-text08{
+    width: 60vw;
+  }
+  .more-component15 .more-text22{
+    left:25vw;
+    top:20%;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  /* tablets 
+  */
+  .more-desktop1{
+    flex-direction: column;
+    height: 1000px;
+  }
+  .more-rectangle5{
+    width: 80%;
+    left:12%;
+    right:10%;
+  }
+  .more-component15{
+    left:15vw;
+    width: auto;
+    height: 500px;
+    top:50vh;
+  }
+  .more-component15 .more-text24{
+    left:25vw;
+    width: 100vw;
+  }
+  .more-component15 .more-text08{
+    width: 80vw;
+    left:0px;
+  }
+  .more-component15 .more-text22{
+    left:25vw;
+    top:20%;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:481px) {
+  /* mobile*/
+  .more-desktop1{
+    flex-direction: column;
+    height: 1000px;
+  }
+  .more-rectangle5{
+    width: 80%;
+    left:12%;
+    right:10%;
+  }
+  .more-component15{
+    left:15vw;
+    width: auto;
+    height: 500px;
+    top:50vh;
+  }
+  .more-component15 .more-text24{
+    left:25vw;
+    width: 100vw;
+  }
+  .more-component15 .more-text08{
+    width: 80vw;
+    left:0px;
+  }
+  .more-component15 .more-text22{
+    left:20vw;
+    top:20%;
+  }
 }
