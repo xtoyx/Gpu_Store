@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="styleSheet23.css">
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>name</span>
+                    <input type="text" id="fullname" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>phone number</span>
+                    <input type="text" id="mobile" placeholder="enter your phone number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your table</span>
+                    <input type="text" id="tablenumber" placeholder="enter your table number">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="text" id="food" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>quantity of people</span>
+                    <input type="number" id="numberdishes" placeholder="how many dishes">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local" id="Date">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+
+            <button type="button" class="btn"  onclick="checkall()">order now</button>
+
+
+        </form>
+        <script>
+            function checkall(){
+                let fullname=document.getElementById("fullname").value;
+                let mobilenumber=document.getElementById("mobile").value;
+                let tablenumber=document.getElementById("tablenumber").value;
+                let food=document.getElementById("food").value;
+                function onlyEnglish(str){
+                    let counter=0;
+                    for(let i=0;i<str.length;i++){
+                        if((str.charAt(i)>='a'&&str.charAt(i)<='z')||(str.charAt(i)>='A'&&str.charAt(i)<='Z')) counter++;
+                        else return false;
+                    }
+                    return counter==str.length ;
+                 }
+                function containsOnlyNumbers(str) {
+                    let counter=0;
+                    for(let i=0;i<str.length;i++){
+                        if(!(str.charAt(i)>='0'&&str.charAt(i)<='9')) break;
+                        counter++;
+                    }
+                    return counter==str.length ;
+                    // return /^[0-9]+$/.test(str);
+                }
+                if(onlyEnglish(fullname)&&containsOnlyNumbers(mobilenumber)&&containsOnlyNumbers(tablenumber)){
+                    if(mobilenumber.length==10&&tablenumber.length<=5){
+                        alert("success")
+                        location.href="HTMLpay.html";
+                    }
+                    else if(mobilenumber.length!=10){
+                        alert("Mobile Number only 10 digits")
+                    }else if(tablenumber.length==0||tablenumber>5){
+                        alert("table number only 5 letters")
+                    }
+                }else{
+                    alert("Please fill the fields correct");
+                }
+            }
+        </script>
+</body>
+</html>

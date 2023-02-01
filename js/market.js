@@ -5,7 +5,7 @@ let DummyData = [
         PriceFrom: "$350",
         PriceTo: "$500",
         Websites: ["amazon", "ebay", "aliexpress", "alibaba"],
-        image: "pics/Rtx2060.jpg",
+        image: "../pics/Rtx2060.jpg",
         Price_Amazon: "$288",
         Price_Ebay: "$486.05",
         Price_Aliexpress: "$212.75",
@@ -16,7 +16,7 @@ let DummyData = [
         PriceFrom: "$382",
         PriceTo: "$900",
         Websites: ["amazon","ebay", "aliexpress", "alibaba"],
-        image: "pics/Rtx3060.jpg",
+        image: "../pics/Rtx3060.jpg",
         Price_Amazon: "$382.25",
         Price_Ebay: "$607.70",
         Price_Aliexpress: "$814.84",
@@ -27,7 +27,7 @@ let DummyData = [
         PriceFrom: "$2200",
         PriceTo: "$2700",
         Websites: ["amazon", "ebay", "alibaba"],
-        image: "pics/Rtx4090.jpg",
+        image: "../pics/Rtx4090.jpg",
         Price_Amazon: "$2,699.98",
         Price_Ebay: "$2,144.95",
         Price_Aliexpress: "",
@@ -38,7 +38,7 @@ let DummyData = [
         PriceFrom: "$174",
         PriceTo: "$499",
         Websites: ["amazon", "ebay", "aliexpress", "alibaba"],
-        image: "pics/Rtx1060.jpg",
+        image: "../pics/Rtx1060.jpg",
         Price_Amazon: "$267",
         Price_Ebay: "$189.00",
         Price_Aliexpress: "$174.03",
@@ -816,7 +816,7 @@ function ss(i1, countereee) {
         div.className = "market-component12";
         const img1 = document.createElement("img");
         img1.classList = "market-rectangle62";
-        img1.src = "pics/white-with-gray.png";
+        img1.src = "../pics/white-with-gray.png";
         const img2 = document.createElement("img");
         img2.classList = "market-rectangle52";
         img2.src = Data[i1].image;

@@ -1,155 +1,84 @@
-
-  
-.container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width:100%;
-    margin-top:10%;
-    margin-bottom:10%;
+center{
+    background:transparent;
+    min-height: 100%;
 }
-
-.form {
-    background-color: #15172b;
-    border-radius: 20px;
-    box-sizing: border-box;
-    height: 500px;
+.container22{
+    width: 80%;
     padding: 20px;
-    width: 320px;
+    background: transparent;
 }
-
-.title {
-    color: #eee;
-    font-family: sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    margin-top: 30px;
+.container22 h2{
+    color: white;
+    font-size:2rem;
+    text-align: center;
+    margin-bottom:30px;
 }
-
-.subtitle {
-    color: #eee;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+    gap:30px;
+}
+.wrapper .box{
+    width: 100%;
+    position: relative;
+    padding: 20px; 
+}
+.wrapper .box input{
+    width: 100%;
+    font-size: 1rem;
+    background:transparent ;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgb(40,205,245) ;
+    transition: 0.5s linear;
+}
+.wrapper .box input:valid,
+.wrapper .box input:focus{
+   padding: 20px 10px;
+   background: rgb(40,205,245);
     margin-top: 10px;
 }
-
-.input-container {
-    height: 50px;
-    position: relative;
-    width: 100%;
-}
-
-.ic1 {
-    margin-top: 40px;
-}
-
-.ic2 {
-    margin-top: 30px;
-}
-
-.input {
-    background-color: #303245;
-    border-radius: 12px;
-    border: 0;
-    box-sizing: border-box;
-    color: #eee;
-    font-size: 18px;
-    height: 100%;
-    outline: 0;
-    padding: 4px 20px 0;
-    width: 100%;
-}
-
-.cut {
-    background-color: #15172b;
-    border-radius: 10px;
-    height: 20px;
-    left: 20px;
+.wrapper .box label{
     position: absolute;
-    top: -20px;
-    transform: translateY(0);
-    transition: transform 200ms;
-    width: 76px;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    padding: 20px;
+    transition: 0.5s linear;
 }
-
-.cut-short {
-    width: 50px;
+.wrapper .box input:focus ~ label,
+.wrapper .box input:valid ~ label{
+    padding: 0;
 }
-
-.input:focus ~ .cut,
-.input:not(:placeholder-shown) ~ .cut {
-    transform: translateY(8px);
+.wrapper .box textarea{
+    width: 100%;
+    font-size: 1rem;
+    background:transparent ;
+    border: none;
+    outline: none;
+    border-bottom:1px solid rgb(40,205,245) ;
+    transition: 0.5s linear;
 }
-
-.placeholder {
-    color: #65657b;
-    font-family: sans-serif;
-    left: 20px;
-    line-height: 14px;
-    pointer-events: none;
-    position: absolute;
-    transform-origin: 0 50%;
-    transition: transform 200ms, color 200ms;
-    top: 20px;
+.wrapper .box textarea:valid,
+.wrapper .box textarea:focus{
+   padding: 20px 10px;
+   background: rgb(40,205,245);
+    margin-top: 10px;
 }
-
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
-    transform: translateY(-30px) translateX(10px) scale(0.75);
+.wrapper .box textarea:focus ~ label,
+.wrapper .box textarea:valid ~label{
+    padding: 0;
 }
-
-.input:not(:placeholder-shown) ~ .placeholder {
-    color: #808097;
-}
-
-.input:focus ~ .placeholder {
-    color: #dc2f55;
-}
-
-.submit {
-    background-color: #08d;
-    border-radius: 12px;
-    border: 0;
-    box-sizing: border-box;
-    color: #eee;
+form .submit{
+    background: rgb(40,205,245);
+    padding:15px 30px;
+    border: none;
+    outline: none;
+    font-size:20px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
-    height: 50px;
-    margin-top: 38px;
-    text-align: center;
-    width: 100%;
 }
-
-    .submit:active {
-        background-color: #06b;
-    }
-
-/*for css screen*/
-@media all and (min-width:1203px) {
-    /* Desktop and bigger*/
-}
-  
-  @media all and (min-width:1100px) and (max-width:1202px) {
-    /* laptop*/
-    
-  }
-  /* this for width because it changes */
-  @media all and (min-width:1025px) and (max-width:1100px){
-    /* bigger then tablets but less then laptop */
-    
-  }
-  @media screen and (min-width:769px) and (max-width:1024px) {
-    /* bigger then tablets but less then laptop */
-    
-  }
-  
-  @media screen and (min-width:481px) and (max-width:768px) {
-    /* tablets 
-    */
-    
-  }
-  @media screen and (min-width:320px) and (max-width:481px) {
-    /* mobile*/
-    
-  }
